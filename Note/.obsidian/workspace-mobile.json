@@ -1,0 +1,174 @@
+{
+  "main": {
+    "id": "127bf95facf54d92",
+    "type": "split",
+    "children": [
+      {
+        "id": "c7ac06d61f424f21",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e33c7e3c7fca982a",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-08-24 18.01.50.excalidraw.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ba5e6973a664057e",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "3d449b5b8dbae37a",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "61bed9de2fbbd417",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "d0c73ab52a63d56c",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "5e1f188590fc53d1",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "7d598cc601b37b77",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "20686f1c4c6fb331",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Excalidraw/Drawing 2024-08-24 18.01.50.excalidraw.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "ef73cd8e0b6753da",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Excalidraw/Drawing 2024-08-24 18.01.50.excalidraw.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "439f8e68f8030e46",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Excalidraw/Drawing 2024-08-24 18.01.50.excalidraw.md"
+          }
+        }
+      },
+      {
+        "id": "5624505baf27828b",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:查看关系图谱": false,
+      "switcher:打开快速切换": true,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": true,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": true,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "templater-obsidian:Templater": false,
+      "remotely-save:Remotely Save": false
+    }
+  },
+  "active": "e33c7e3c7fca982a",
+  "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-08-24 18.01.50.excalidraw.md",
+    "Self-study/Thomas Calculus/Thomas_ Calculus 13th.pdf",
+    "Self-study/Thomas Calculus/Thomas Calculus 13th Editio.pdf",
+    "Self-study/Thomas Calculus",
+    "MPC 2024/Precalculus, 7th Edition.pdf",
+    "Excalidraw",
+    "Self-study/Thomas_ Calculus 13th.pdf",
+    "MPC 2024/Precalculus, 7th Edition (D_ (Z-Library)-1.pdf",
+    "Self-study/Note - Thomas Calculus 13th.md",
+    "00 Inbox",
+    "test/testFile0.md",
+    "testFile0.md",
+    "Self-study",
+    "test/Thomas_ Calculus 13th.pdf",
+    "00 Inbox/test0.md",
+    "00 Inbox/test0-GyanThinkBook.md",
+    "Excalidraw/Drawing 2024-08-24 15.12.27.excalidraw.md",
+    "Excalidraw/Drawing 2024-08-24 15.57.28.excalidraw.md",
+    "Excalidraw/Drawing 2024-08-24 15.32.28.excalidraw.md",
+    "Excalidraw/Drawing 2024-08-24 15.03.18.excalidraw.md",
+    "Excalidraw/Drawing 2024-08-24 15.10.10.excalidraw.md",
+    "Excalidraw/Drawing 2024-08-24 15.12.27_0.excalidraw.md",
+    "t.canvas",
+    "Excalidraw/Drawing 2024-08-24 14.59.28.excalidraw.md",
+    "未命名.canvas"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "promptDelete": false,
+  "newFileLocation": "current",
+  "newFileFolderPath": "00 Inbox",
+  "attachmentFolderPath": "./assests",
+  "showUnsupportedFiles": true,
+  "strictLineBreaks": true,
+  "alwaysUpdateLinks": true,
+  "vimMode": false
+}
