@@ -4,16 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "c7ac06d61f424f21",
+        "id": "be1ccaa91761aa31",
         "type": "tabs",
         "children": [
           {
-            "id": "e33c7e3c7fca982a",
+            "id": "7c5303376a8ebf55",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "afe566c03d82b1f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-24 18.01.50.excalidraw.md"
+                "file": "MAT1010 - Calculus I/Content.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +93,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Excalidraw/Drawing 2024-08-24 18.01.50.excalidraw.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -100,7 +109,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Excalidraw/Drawing 2024-08-24 18.01.50.excalidraw.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -111,9 +119,7 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "Excalidraw/Drawing 2024-08-24 18.01.50.excalidraw.md"
-          }
+          "state": {}
         }
       },
       {
@@ -129,22 +135,23 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "workspaces:管理工作区布局": false,
       "graph:查看关系图谱": false,
       "switcher:打开快速切换": true,
       "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": true,
       "templates:插入模板": false,
       "command-palette:打开命令面板": true,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "templater-obsidian:Templater": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "templater-obsidian:Templater": false,
-      "remotely-save:Remotely Save": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "e33c7e3c7fca982a",
+  "active": "3d449b5b8dbae37a",
   "lastOpenFiles": [
+    "MAT1010 - Calculus I/Content.md",
+    "MAT2040 - Linear Algebra/Content.md",
     "Excalidraw/Drawing 2024-08-24 18.01.50.excalidraw.md",
     "Self-study/Thomas Calculus/Thomas_ Calculus 13th.pdf",
     "Self-study/Thomas Calculus/Thomas Calculus 13th Editio.pdf",
