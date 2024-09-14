@@ -4,18 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7920a59468a91ff6",
+        "id": "df1566ee44d6aaa1",
         "type": "tabs",
         "children": [
           {
-            "id": "4a5b55f576151e5c",
+            "id": "0a7a18c1b20e4f01",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Content.md",
-                "mode": "source",
-                "source": false
+                "file": "MAT2040 - Linear Algebra/Main.canvas",
+                "viewState": {
+                  "x": -280,
+                  "y": -460,
+                  "zoom": 0
+                }
               }
             }
           }
@@ -69,7 +72,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "80869a80afa6500c",
@@ -85,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Content.md",
+                "file": "MAT2040 - Linear Algebra/Main.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Content.md",
+                "file": "MAT2040 - Linear Algebra/Main.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Content.md"
+                "file": "MAT2040 - Linear Algebra/Main.canvas"
               }
             }
           }
@@ -144,15 +147,23 @@
       "canvas:新建白板": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "templater-obsidian:Templater": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "4a5b55f576151e5c",
+  "active": "0a7a18c1b20e4f01",
   "lastOpenFiles": [
+    "MAT2040 - Linear Algebra/Matrix Multiplication.md",
+    "MAT2040 - Linear Algebra/Main.canvas",
+    "MAT2040 - Linear Algebra/TextBooks/Linear Algebra with Applications.pdf",
+    "MAT2040 - Linear Algebra/Content.md",
+    "Excalidraw/Drawing 2024-09-14 15.59.42.excalidraw.md",
+    "Excalidraw",
+    "MAT2040 - Linear Algebra/TextBooks/Linear Algebra with Applications by Steven J. Leon.pdf",
+    "MAT2040 - Linear Algebra/TextBooks/Introduction to Linear Algebra 黑白.pdf",
     "Content.md",
     "MAT1010 - Calculus I/Textbooks/Thomas' Calculus 13th Edition in SI Units.pdf",
     "MAT1010 - Calculus I/Textbooks",
@@ -160,7 +171,6 @@
     "MAT2040 - Linear Algebra/TextBooks/Steven J. Leon - Linear Algebra with Applications (2015, Pearson).pdf",
     "MAT2040 - Linear Algebra/TextBooks/Introduction to Linear Algebra by Gilbert Strang.pdf",
     "MAT2040 - Linear Algebra/TextBooks",
-    "MAT2040 - Linear Algebra/新建文件夹",
     "MAT 1011/d.png",
     "MAT 1011/Epsilon.png",
     "MAT 1011/Figure3.png",
