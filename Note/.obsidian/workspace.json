@@ -11,14 +11,11 @@
             "id": "0a7a18c1b20e4f01",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "MAT2040 - Linear Algebra/Main.canvas",
-                "viewState": {
-                  "x": -280,
-                  "y": -460,
-                  "zoom": 0
-                }
+                "file": "MAT2040 - Linear Algebra/Matrix Multiplication.md",
+                "mode": "preview",
+                "source": false
               }
             }
           }
@@ -88,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MAT2040 - Linear Algebra/Main.canvas",
+                "file": "MAT2040 - Linear Algebra/Matrix Multiplication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MAT2040 - Linear Algebra/Main.canvas",
+                "file": "MAT2040 - Linear Algebra/Matrix Multiplication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MAT2040 - Linear Algebra/Main.canvas"
+                "file": "MAT2040 - Linear Algebra/Matrix Multiplication.md"
               }
             }
           }
@@ -156,8 +153,8 @@
   },
   "active": "0a7a18c1b20e4f01",
   "lastOpenFiles": [
-    "MAT2040 - Linear Algebra/Matrix Multiplication.md",
     "MAT2040 - Linear Algebra/Main.canvas",
+    "MAT2040 - Linear Algebra/Matrix Multiplication.md",
     "MAT2040 - Linear Algebra/TextBooks/Linear Algebra with Applications.pdf",
     "MAT2040 - Linear Algebra/Content.md",
     "Excalidraw/Drawing 2024-09-14 15.59.42.excalidraw.md",
