@@ -17,11 +17,19 @@
       "template": "📖"
     },
     {
+      "name": "Definition",
+      "template": "Definition"
+    },
+    {
+      "name": "Theorem",
+      "template": "Theorem"
+    },
+    {
       "name": "None",
       "template": ""
     }
   ],
-  "defaultDisplayTextFormatIndex": 0,
+  "defaultDisplayTextFormatIndex": 4,
   "syncDisplayTextFormat": true,
   "syncDefaultDisplayTextFormat": false,
   "copyCommands": [
@@ -44,6 +52,14 @@
     {
       "name": "Quote in callout",
       "template": "> [!{{calloutType}}|{{color}}] {{linkWithDisplay}}\n> > {{text}}\n> \n> "
+    },
+    {
+      "name": "Callout: Definition",
+      "template": "```ad-abstract\ntitle: Definition [[{{linktext}}|🔗]]\n{{text}}\n```"
+    },
+    {
+      "name": "Callout: Theorem",
+      "template": "```ad-tip\ntitle: Theorem [[{{linktext}}|🔗]]\n{{text}}\n```"
     }
   ],
   "useAnotherCopyTemplateWhenNoSelection": false,
@@ -98,7 +114,7 @@
   "singleMDLeafInSidebar": true,
   "alwaysUseSidebar": true,
   "ignoreExistingMarkdownTabIn": [],
-  "defaultColorPaletteActionIndex": 4,
+  "defaultColorPaletteActionIndex": 5,
   "syncColorPaletteAction": true,
   "syncDefaultColorPaletteAction": false,
   "proxyMDProperty": "PDF",
@@ -263,11 +279,11 @@
   "newPDFLocation": "current",
   "newPDFFolderPath": "",
   "rectEmbedStaticImage": false,
-  "rectImageFormat": "file",
+  "rectImageFormat": "data-url",
   "rectImageExtension": "webp",
   "zoomToFitRect": false,
   "rectEmbedResolution": 100,
-  "includeColorWhenCopyingRectLink": true,
+  "includeColorWhenCopyingRectLink": false,
   "backlinkIconSize": 50,
   "showBacklinkIconForSelection": false,
   "showBacklinkIconForAnnotation": false,

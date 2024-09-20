@@ -1,4 +1,4 @@
-There are four ways to multiply matrices.
+There are several ways to multiply matrices.
 Suppose $AB=C$, where $A\in\mathbb{R}^{m\times p}, B\in\mathbb{R}^{p\times n}, C\in\mathbb{R}^{m\times n}$.
 
 ## In Terms of **Entries**

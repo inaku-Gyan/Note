@@ -4,18 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "df1566ee44d6aaa1",
+        "id": "e9e49fe46867c469",
         "type": "tabs",
+        "dimension": 54.222520107238594,
         "children": [
           {
-            "id": "0a7a18c1b20e4f01",
+            "id": "878b126e2f5ae7e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MAT2040 - Linear Algebra/Matrix Multiplication.md",
-                "mode": "preview",
+                "file": "MAT2040 - Linear Algebra/Content.md",
+                "mode": "source",
                 "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "0b5e9ba9f56243a8",
+        "type": "tabs",
+        "dimension": 45.777479892761406,
+        "children": [
+          {
+            "id": "60f2131e71136fb3",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "MAT2040 - Linear Algebra/TextBooks/Linear Algebra with Applications.pdf",
+                "page": 34,
+                "left": 23,
+                "top": 647,
+                "zoom": 0.8913638007413434
               }
             }
           }
@@ -69,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "80869a80afa6500c",
@@ -85,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MAT2040 - Linear Algebra/Matrix Multiplication.md",
+                "file": "MAT2040 - Linear Algebra/TextBooks/Linear Algebra with Applications.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MAT2040 - Linear Algebra/Matrix Multiplication.md",
+                "file": "MAT2040 - Linear Algebra/TextBooks/Linear Algebra with Applications.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MAT2040 - Linear Algebra/Matrix Multiplication.md"
+                "file": "MAT2040 - Linear Algebra/TextBooks/Linear Algebra with Applications.pdf"
               }
             }
           }
@@ -151,14 +174,15 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "0a7a18c1b20e4f01",
+  "active": "60f2131e71136fb3",
   "lastOpenFiles": [
+    "MAT2040 - Linear Algebra/Content.md",
+    "MAT2040 - Linear Algebra/TextBooks/Linear Algebra with Applications.pdf",
     "MAT2040 - Linear Algebra/Main.canvas",
     "MAT2040 - Linear Algebra/Matrix Multiplication.md",
-    "MAT2040 - Linear Algebra/TextBooks/Linear Algebra with Applications.pdf",
-    "MAT2040 - Linear Algebra/Content.md",
+    "MAT2040 - Linear Algebra/Drawing 2024-09-20 14.47.15.excalidraw.md",
+    "MAT2040 - Linear Algebra/Excalidraw",
     "Excalidraw/Drawing 2024-09-14 15.59.42.excalidraw.md",
-    "Excalidraw",
     "MAT2040 - Linear Algebra/TextBooks/Linear Algebra with Applications by Steven J. Leon.pdf",
     "MAT2040 - Linear Algebra/TextBooks/Introduction to Linear Algebra 黑白.pdf",
     "Content.md",
