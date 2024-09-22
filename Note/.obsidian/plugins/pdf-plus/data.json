@@ -93,10 +93,11 @@
   "highlightOnHoverBacklinkPane": true,
   "backlinkHoverColor": "",
   "colors": {
-    "Yellow": "#ffd000",
-    "Red": "#ea5252",
-    "Note": "#086ddd",
-    "Important": "#bb61e5"
+    "definition": "#00b0ff",
+    "tip": "#00bfa5",
+    "info": "#00b8d4",
+    "lightning": "#ff5252",
+    "list": "#7c4dff"
   },
   "defaultColor": "",
   "defaultColorPaletteItemIndex": 0,
@@ -283,7 +284,7 @@
   "rectImageExtension": "webp",
   "zoomToFitRect": false,
   "rectEmbedResolution": 100,
-  "includeColorWhenCopyingRectLink": false,
+  "includeColorWhenCopyingRectLink": true,
   "backlinkIconSize": 50,
   "showBacklinkIconForSelection": false,
   "showBacklinkIconForAnnotation": false,
