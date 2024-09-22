@@ -23760,6 +23760,7 @@ IpUY
 Ima
 IGM
 IbBi
+Interval
 of
 obj
 obHwFMHR
@@ -26077,6 +26078,7 @@ oqr
 oomI
 ohE
 osRfW
+over
 Entries
 Each
 ExtGState
@@ -48777,6 +48779,7 @@ LcHvH
 Lxz
 LQp
 Limits
+Limit
 Matrices
 Margins
 MediaBox
@@ -59417,6 +59420,7 @@ PQKm
 PrQ
 PVULR
 PbDJ
+Point
 GS
 GUISmeGIJJ
 GT
@@ -65826,6 +65830,7 @@ sxx
 sGn
 sFRi
 show
+sided
 zF
 zaG
 zX

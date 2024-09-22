@@ -93,6 +93,7 @@
   "highlightOnHoverBacklinkPane": true,
   "backlinkHoverColor": "",
   "colors": {
+    "note": "#448aff",
     "definition": "#00b0ff",
     "tip": "#00bfa5",
     "info": "#00b8d4",

@@ -206,11 +206,11 @@ copyEmbedLinkToRect(e, i, r, o, s, a, c) {
                 let sss = s ? s : "";
                 let t = this.lib.generateMarkdownLink(l, c != null ? c : "", u, "");
                 let tempDict = {
-                    "": ["note", "Note"],
-                    "note": ["note", "Note"],  // 68,138,255
+                    // "": ["note", "Note"],
+                    "note": ["note", "Theorem"],  // 68,138,255
                     "definition": ["abstract", "Definition"],  // 0,176,255
                     "info": ["info", "Info"],  // 0,184,212
-                    "tip": ["tip", "Theorem"],  // 0,191,165
+                    "tip": ["tip", "Tip"],  // 0,191,165
                     "success": ["success", "Check"],  // 0,200,83
                     "help": ["help", "Help"],  // 100,221,23
                     "caution": ["caution", "Caution"],  // 255,145,0
@@ -234,11 +234,16 @@ copyEmbedLinkToRect(e, i, r, o, s, a, c) {
                   "quote": "#9e9e9e"
                 },
 */
-                p = t.slice(1, -2) + "|]]\n";
-                p += "```ad-" + tempDict[sss][0];
-                p += "\ntitle: " + tempDict[sss][1] + "\n";
-                p += t;
-                p += "\n\n---\n```"
+                if (sss === "") {
+                    p = t;
+                }
+                else {
+                    p = "```ad-" + tempDict[sss][0];
+                    p += "\ntitle: " + tempDict[sss][1] + "\n";
+                    p += t;
+                    p += "\n\n---\n```\n"
+                    p += t.slice(1, -2) + "|]]\n\n";
+                }
 
                 // window.alert(p);
 /*
