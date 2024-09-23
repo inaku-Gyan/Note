@@ -6,7 +6,7 @@
       {
         "id": "721ed96a5f408e54",
         "type": "tabs",
-        "dimension": 47.788203753351205,
+        "dimension": 47.78820375335121,
         "children": [
           {
             "id": "d2f661368e1186fb",
@@ -34,10 +34,10 @@
               "type": "pdf",
               "state": {
                 "file": "MAT1010 - Calculus I/Textbooks/Thomas' Calculus 13th Edition in SI Units.pdf",
-                "page": 106,
+                "page": 138,
                 "left": 28,
-                "top": 522,
-                "zoom": 0.9098418101722068
+                "top": 547,
+                "zoom": 0.9098418101722066
               }
             }
           }

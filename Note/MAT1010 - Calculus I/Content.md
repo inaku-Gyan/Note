@@ -82,7 +82,7 @@ title: Definition
 ---
 ```
 [[Thomas' Calculus 13th Edition in SI Units.pdf#page=102&rect=273,549,615,743&color=definition|]]
-
+Horizontal Asymptote
 ```ad-abstract
 title: Definition
 ![[Thomas' Calculus 13th Edition in SI Units.pdf#page=103&rect=246,100,588,157&color=definition]]
@@ -90,7 +90,7 @@ title: Definition
 ---
 ```
 [[Thomas' Calculus 13th Edition in SI Units.pdf#page=103&rect=246,100,588,157&color=definition|]]
-
+Oblique Asymptote
 ```ad-abstract
 title: Definition
 ![[Thomas' Calculus 13th Edition in SI Units.pdf#page=106&rect=253,706,629,735&color=definition]]
@@ -98,8 +98,17 @@ title: Definition
 ---
 ```
 [[Thomas' Calculus 13th Edition in SI Units.pdf#page=106&rect=253,706,629,735&color=definition|]]
+Vertical Asymptote
+```ad-abstract
+title: Definition
+![[Thomas' Calculus 13th Edition in SI Units.pdf#page=109&rect=250,268,586,325&color=definition]]
+
+---
+```
+[[Thomas' Calculus 13th Edition in SI Units.pdf#page=109&rect=250,268,586,325&color=definition|]]
 
 
+##### Infinite Limit
 ```ad-abstract
 title: Definition
 ![[Thomas' Calculus 13th Edition in SI Units.pdf#page=108&rect=272,158,613,354&color=definition]]
@@ -114,5 +123,75 @@ title: Info
 
 ---
 ```
-[[Thomas' Calculus 13th Edition in SI Units.pdf#page=106&rect=256,76,629,245&color=info|]]
+
+
+
+# Derivatives
+
+```ad-abstract
+title: Definition
+![[Thomas' Calculus 13th Edition in SI Units.pdf#page=120&rect=276,98,610,176&color=definition]]
+
+---
+```
+[[Thomas' Calculus 13th Edition in SI Units.pdf#page=120&rect=276,98,610,176&color=definition|]]
+```ad-abstract
+title: Definition
+![[Thomas' Calculus 13th Edition in SI Units.pdf#page=121&rect=252,99,577,170&color=definition]]
+
+---
+```
+[[Thomas' Calculus 13th Edition in SI Units.pdf#page=121&rect=252,99,577,170&color=definition|]]
+
+```ad-abstract
+title: Definition
+![[Thomas' Calculus 13th Edition in SI Units.pdf#page=125&rect=252,523,588,603&color=definition]]
+![[Thomas' Calculus 13th Edition in SI Units.pdf#page=125&rect=249,293,589,341]]
+---
+```
+[[Thomas' Calculus 13th Edition in SI Units.pdf#page=125&rect=252,523,588,603&color=definition|]]
+
+```ad-info
+title: Info
+![[Thomas' Calculus 13th Edition in SI Units.pdf#page=126&rect=252,76,629,181&color=info]]
+![[Thomas' Calculus 13th Edition in SI Units.pdf#page=127&rect=253,632,622,678]]
+---
+```
+[[Thomas' Calculus 13th Edition in SI Units.pdf#page=126&rect=252,76,629,181&color=info|]]
+
+
+
+Differentiability
+```ad-abstract
+title: Definition
+![[Thomas' Calculus 13th Edition in SI Units.pdf#page=125&rect=232,420,600,496]]
+![[Thomas' Calculus 13th Edition in SI Units.pdf#page=127&rect=234,227,604,342&color=definition]]
+---
+```
+[[Thomas' Calculus 13th Edition in SI Units.pdf#page=127&rect=234,227,604,342&color=definition|]]
+
+```ad-tip
+title: Tip
+![[Thomas' Calculus 13th Edition in SI Units.pdf#page=128&rect=254,342,610,363]]
+![[Thomas' Calculus 13th Edition in SI Units.pdf#page=128&rect=250,77,632,263&color=tip]]
+![[Thomas' Calculus 13th Edition in SI Units.pdf#page=129&rect=226,482,618,761]]
+---
+```
+[[Thomas' Calculus 13th Edition in SI Units.pdf#page=128&rect=250,77,632,263&color=tip|]]
+
+````ad-note
+title: Theorem
+![[Thomas' Calculus 13th Edition in SI Units.pdf#page=129&rect=252,387,586,416&color=note]]
+
+---
+````
+[[Thomas' Calculus 13th Edition in SI Units.pdf#page=129&rect=252,387,586,416&color=note|]]
+````ad-help
+title: Proof
+![[Thomas' Calculus 13th Edition in SI Units.pdf#page=137&rect=233,77,604,252&color=proof]]
+![[Thomas' Calculus 13th Edition in SI Units.pdf#page=138&rect=255,693,629,754]]
+---
+````
+[[Thomas' Calculus 13th Edition in SI Units.pdf#page=137&rect=233,77,604,252&color=proof|]]
+
 

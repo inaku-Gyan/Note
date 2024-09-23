@@ -29,7 +29,7 @@
       "template": ""
     }
   ],
-  "defaultDisplayTextFormatIndex": 4,
+  "defaultDisplayTextFormatIndex": 6,
   "syncDisplayTextFormat": true,
   "syncDefaultDisplayTextFormat": false,
   "copyCommands": [
@@ -52,18 +52,10 @@
     {
       "name": "Quote in callout",
       "template": "> [!{{calloutType}}|{{color}}] {{linkWithDisplay}}\n> > {{text}}\n> \n> "
-    },
-    {
-      "name": "Callout: Definition",
-      "template": "```ad-abstract\ntitle: Definition [[{{linktext}}|🔗]]\n{{text}}\n```"
-    },
-    {
-      "name": "Callout: Theorem",
-      "template": "```ad-tip\ntitle: Theorem [[{{linktext}}|🔗]]\n{{text}}\n```"
     }
   ],
-  "useAnotherCopyTemplateWhenNoSelection": false,
-  "copyTemplateWhenNoSelection": "{{linkToPageWithDisplay}}",
+  "useAnotherCopyTemplateWhenNoSelection": true,
+  "copyTemplateWhenNoSelection": "[[{{linktext}}|📖]]",
   "trimSelectionEmbed": false,
   "embedMargin": 50,
   "noSidebarInEmbed": true,
@@ -93,11 +85,11 @@
   "highlightOnHoverBacklinkPane": true,
   "backlinkHoverColor": "",
   "colors": {
-    "note": "#448aff",
-    "definition": "#00b0ff",
     "tip": "#00bfa5",
     "info": "#00b8d4",
-    "lightning": "#ff5252",
+    "definition": "#00b0ff",
+    "theorem": "#448aff",
+    "proof": "#64dd17",
     "list": "#7c4dff"
   },
   "defaultColor": "",
@@ -116,7 +108,7 @@
   "singleMDLeafInSidebar": true,
   "alwaysUseSidebar": true,
   "ignoreExistingMarkdownTabIn": [],
-  "defaultColorPaletteActionIndex": 5,
+  "defaultColorPaletteActionIndex": 0,
   "syncColorPaletteAction": true,
   "syncDefaultColorPaletteAction": false,
   "proxyMDProperty": "PDF",

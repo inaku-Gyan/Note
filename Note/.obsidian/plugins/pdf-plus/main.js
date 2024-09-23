@@ -207,26 +207,40 @@ copyEmbedLinkToRect(e, i, r, o, s, a, c) {
                 let t = this.lib.generateMarkdownLink(l, c != null ? c : "", u, "");
                 let tempDict = {
                     // "": ["note", "Note"],
-                    "note": ["note", "Theorem"],  // 68,138,255
+                    "theorem": ["note", "Theorem"],  // 68,138,255
                     "definition": ["abstract", "Definition"],  // 0,176,255
                     "info": ["info", "Info"],  // 0,184,212
                     "tip": ["tip", "Tip"],  // 0,191,165
                     "success": ["success", "Check"],  // 0,200,83
-                    "help": ["help", "Help"],  // 100,221,23
+                    "proof": ["help", "Proof"],  // 100,221,23
                     "caution": ["caution", "Caution"],  // 255,145,0
                     "lightning": ["error", "Lightning"],  // 255,82,82
                     "bug": ["bug", "Bug"],  // 245,0,87
                     "list": ["example", "List"],  // 124,77,255
                     "quote": ["quote", "Quote"],  // 158,158,158
                 }
+                let admonitionInfo = {
+                  "": ["", "", "", false],
+                  "theorem": ["`````ad-note\n", "title: Theorem\n", "\n\n---\n`````\n", true],
+                  "definition": ["`````ad-abstract\n", "title: Definition\n", "\n\n---\n`````\n", true],
+                  "info": ["`````ad-info\n", "title: Info\n", "\n\n---\n`````\n", true],
+                  "tip": ["`````ad-tip\n", "title: Tip\n", "\n\n---\n`````\n", true],
+                  "success": ["`````ad-success\n", "title: Check\n", "\n\n---\n`````\n", true],
+                  "proof": ["````ad-help\n", "title: Proof\n", "\n\n---\n````\n", true],
+                  "caution": ["`````ad-caution\n", "title: Caution\n", "\n\n---\n`````\n", true],
+                  "lightning": ["`````ad-error\n", "title: Lightning\n", "\n\n---\n`````\n", true],
+                  "bug": ["`````ad-bug\n", "title: Bug\n", "\n\n---\n`````\n", true],
+                  "list": ["`````ad-example\n", "title: List\n", "\n\n---\n`````\n", true],
+                  "quote": ["`````ad-quote\n", "title: Quote\n", "\n\n---\n`````\n", true],
+              }
 /* data.js
                 "colors": {
-                  "note": "#448aff",
+                  "theorem": "#448aff",
                   "definition": "#00b0ff",
                   "info": "#00b8d4",
                   "tip": "#00bfa5",
                   "success": "#00c853",
-                  "help": "#64dd17",
+                  "proof": "#64dd17",
                   "caution": "#ff9100",
                   "lightning": "#ff5252",
                   "bug": "#f50057",
@@ -234,16 +248,10 @@ copyEmbedLinkToRect(e, i, r, o, s, a, c) {
                   "quote": "#9e9e9e"
                 },
 */
-                if (sss === "") {
-                    p = t;
-                }
-                else {
-                    p = "```ad-" + tempDict[sss][0];
-                    p += "\ntitle: " + tempDict[sss][1] + "\n";
-                    p += t;
-                    p += "\n\n---\n```\n"
-                    p += t.slice(1, -2) + "|]]\n\n";
-                }
+                p = admonitionInfo[sss][0] + admonitionInfo[sss][1];
+                p += t;
+                p += admonitionInfo[sss][2];
+                if (admonitionInfo[sss][3]) p += t.slice(1, -2) + "|]]\n\n";
 
                 // window.alert(p);
 /*
