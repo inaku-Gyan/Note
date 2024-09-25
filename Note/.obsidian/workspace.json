@@ -4,44 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "721ed96a5f408e54",
+        "id": "5f327e7fa65af564",
         "type": "tabs",
-        "dimension": 47.78820375335121,
         "children": [
           {
-            "id": "d2f661368e1186fb",
+            "id": "878b126e2f5ae7e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MAT1010 - Calculus I/Content.md",
+                "file": "MAT2040 - Linear Algebra/Content.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "60f2131e71136fb3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MAT2040 - Linear Algebra/Matrix Multiplication.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
-      },
-      {
-        "id": "ca3fd142139e597e",
-        "type": "tabs",
-        "dimension": 52.21179624664879,
-        "children": [
-          {
-            "id": "dd848576ba9458f6",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "MAT1010 - Calculus I/Textbooks/Thomas' Calculus 13th Edition in SI Units.pdf",
-                "page": 138,
-                "left": 28,
-                "top": 547,
-                "zoom": 0.9098418101722066
-              }
-            }
-          }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MAT1010 - Calculus I/Content.md",
+                "file": "MAT2040 - Linear Algebra/Matrix Multiplication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MAT1010 - Calculus I/Content.md",
+                "file": "MAT2040 - Linear Algebra/Matrix Multiplication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MAT1010 - Calculus I/Content.md"
+                "file": "MAT2040 - Linear Algebra/Matrix Multiplication.md"
               }
             }
           }
@@ -174,17 +165,17 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "d2f661368e1186fb",
+  "active": "60f2131e71136fb3",
   "lastOpenFiles": [
-    "MAT1010 - Calculus I/Textbooks/Thomas' Calculus 13th Edition in SI Units.pdf",
+    "MAT2040 - Linear Algebra/Content.md",
+    "MAT2040 - Linear Algebra/TextBooks/Linear Algebra with Applications.pdf",
     "MAT1010 - Calculus I/Content.md",
+    "MAT1010 - Calculus I/Textbooks/Thomas' Calculus 13th Edition in SI Units.pdf",
     "Test.md",
     "MAT1010 - Calculus I/Textbooks/assests",
     "MAT1010 - Calculus I/assests/Pasted image 20240922174648.png",
     "MAT1010 - Calculus I/assests",
-    "MAT2040 - Linear Algebra/Content.md",
     "MAT2040 - Linear Algebra/TextBooks/Introduction to Linear Algebra 黑白.pdf",
-    "MAT2040 - Linear Algebra/TextBooks/Linear Algebra with Applications.pdf",
     "MAT2040 - Linear Algebra/Main.canvas",
     "MAT2040 - Linear Algebra/Matrix Multiplication.md",
     "MAT2040 - Linear Algebra/Drawing 2024-09-20 14.47.15.excalidraw.md",

@@ -1,7 +1,7 @@
-There are several ways to multiply matrices.
+There are several ways to multiply two matrices.
 Suppose $AB=C$, where $A\in\mathbb{R}^{m\times p}, B\in\mathbb{R}^{p\times n}, C\in\mathbb{R}^{m\times n}$.
 
-## In Terms of **Entries**
+## Entries
 Each entry of $C$ is the dot product of the corresponding row of $A$ and column of $B$.
 $$
 c_{ij} = \vec{\mathbf{a}}_i\cdot\mathbf{b}_j = \sum^{p}_{k=1}a_{ik}b_{kj}
@@ -30,7 +30,7 @@ $$
 $$
 ^b0dd59
 
-## In Terms of **Columns**
+## Columns
 Each column of $C$ is a linear combination of the columns of $A$.
 $$
 \mathbf{c}_j=A\cdot\mathbf{b}_j=\sum^{p}_{k=1}b_{kj}\mathbf{a}_k
@@ -49,7 +49,7 @@ $$
 \end{bmatrix}
 $$
 
-## In Terms of **Rows**
+## Rows
 Each row of $C$ is a linear combination of the rows of $B$.
 $$
 \vec{\mathbf{c}}_i=\vec{\mathbf{a}}_i\cdot B=\sum^{p}_{k=1}a_{ik}\vec{\mathbf{b}}_k
@@ -65,5 +65,49 @@ $$
 \begin{pmatrix}\ -&\vec{\mathbf{c}}_{i}&-\ \end{pmatrix}
 $$
 
+## Block Multiplication
+It is possible to partition $A$ and $B$ into submatrices and complete the product, if and only if the number of columns into which $A$ is partitioned is equal to the number of rows into which $B$ is partitioned, and that the number of columns in the submatrices of the $q$-th column in $A$ is equal to the number of rows in the submatrices of the $q$-th row in $B$.
 
+$$
+\left[
+\begin{array}{cc|c|ccc|c|c} 
+\# & \# & @ & \# & \# & \# & @ & \# \\
+* & * & * & * & * & * & * & * \\
+* & * & * & * & * & * & * & * \\ \hdashline
+* & * & * & * & * & * & * & * \\
+* & * & * & * & * & * & * & * \\
+\end{array}
+\right]
+\left[
+\begin{array}{cc:c:c} 
+\# & * & * & * \\
+\# & * & * & * \\ \hline 
+@ & * & * & * \\ \hline 
+\# & * & * & * \\
+\# & * & * & * \\
+\# & * & * & * \\ \hline 
+@ & * & * & * \\ \hline 
+\# & * & * & * \\
+\end{array}
+\right]=
+\left[
+\begin{array}{cc:c:ccc} 
+* & * & * & * \\
+* & * & * & * \\
+* & * & * & * \\ \hdashline 
+* & * & * & * \\
+* & * & * & * \\
+\end{array}
+\right]
+$$
+
+
+## Properties
+
+#### Interactions between $A$ and $B$
+During the entire operation, $a_{ik}$ will complete exactly $n$ multiplications, which are with $b_{k1}, b_{k2}, ..., b_{kn}$ respectively; and $b_{kj}$ will complete exactly $m$ multiplications, which are with $a_{1k}, a_{2k}, ..., a_{mk}$ respectively.
+
+#### Effects on $C$
+- An item of the $i$-th row of $A$ will exactly affect the whole $i$-th row of $C$.
+- An item of the $j$-th column of $B$ will exactly affect the whole $j$-th column of $C$.
 
